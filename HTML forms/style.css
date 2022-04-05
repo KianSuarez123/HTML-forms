@@ -1,0 +1,44 @@
+h1{
+    color: black;
+    text-align: center;
+}
+
+.for_back{
+    background-image: url(Rannithewhitewitch.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.firstname{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.lastname{
+    text-align: center;
+}
+
+.email{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.age{
+    text-align: center;
+}
+
+.sex{
+    text-align: center;
+}
+
+.Bdate{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.buttons{
+    padding-top: 10px;
+    text-align: center;
+}

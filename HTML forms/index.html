@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = 'UTF-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Form</title>
+    </head>
+    <body class="for_back">
+        <form action="results.html" method="GET">
+
+            <div class="mainheader">
+                <h1>HTML RECORD FORM</h1>
+            </div>
+
+            <div class="firstname">
+                <label for="firstname">First Name</label>
+                <input type="text" name="First Name" id="fname" placeholder="First Name" required>
+            </div>
+
+            <div class="lastname">
+                <label for="lastname">Last Name</label>
+                <input type="text" name="Last Name" id="lname" placeholder="Last Name" required>
+            </div>
+
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+            </div>
+
+            <div class="age">
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" min="1" max="200" placeholder="Age">
+            </div>
+
+
+
+            <div class="sex">
+                <label for="sex">SEX</label>
+                <select name="sex" id="sex">
+                    <option value="male">Male</option>
+                    <option label="Female" value="female"></option>
+                </select>
+
+            </div>
+            <!-- 
+            <div class="sex">
+                SEX
+                <div class="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male">
+                </div>
+                <div>
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female">
+                </div>
+            </div>
+             -->
+
+            <div class="Bdate">
+                <label for="date">Birthdate</label>
+                <input type="date" name="date" id="date">
+            </div>
+
+            <!--  
+            <div>
+                <label>Password</label>
+                <input type="password" name="password" placeholder="Password" required>
+            </div>
+-->
+            
+            <div class="buttons">
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </div>
+
+        </form>
+    </body>
+</html>
